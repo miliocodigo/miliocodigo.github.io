@@ -1,0 +1,49 @@
+body {
+    background-color: #f8c8dc; /* Fondo rosa pastel */
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alineación al principio */
+    min-height: 100vh;
+}
+
+h1 {
+    color: #ff69b4; /* Color rosa vibrante para el título */
+    font-size: 3rem; /* Tamaño grande para destacar */
+    text-align: center;
+    margin: 20px 0; /* Espaciado para separarlo del borde superior */
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Sombra suave para que resalte */
+    width: 100%; /* Ocupa todo el ancho de la página */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo translúcido para que se destaque */
+    border-bottom: 2px solid #ff69b4; /* Línea inferior para darle estilo */
+}
+
+.code-container {
+    background: linear-gradient(145deg, #ffc2d1, #ffebf0);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 90%;
+    margin: 20px 0; /* Espacio vertical entre el contenedor y otros elementos */
+}
+
+pre {
+    background-color: #fff;
+    color: #2a2a2a;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+pre code {
+    font-family: 'Fira Code', monospace;
+}

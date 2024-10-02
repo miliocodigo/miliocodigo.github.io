@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorama</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/Estilosmemorama.css">
+    <script src="js/obfuscated_memorama.js"></script>
+</head>
+<body onload="revolver(); Fondo();">
+    <h1>Ｍｅｍｏｒａｍａ　ト尉ヱ</h1>
+    <a href="index.html"><button>Regresar al menu</button></a><br>
+    <img src="img/miku.gif" width="70" srcset="">
+    <table id="Tabla">
+        <tr>
+            <td><img src="./img/9.jpg" id="0" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,0)"></td>
+            <td><img src="./img/9.jpg" id="1" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,1)">
+            <td><img src="./img/9.jpg" id="2" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,2)">
+            <td><img src="./img/9.jpg" id="3" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,3)">
+        </tr>
+        <tr>
+            <td><img src="./img/9.jpg" id="4" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,4)">
+            <td><img src="./img/9.jpg" id="5" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,5)">
+            <td><img src="./img/9.jpg" id="6" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,6)">
+            <td><img src="./img/9.jpg" id="7" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,7)">
+        </tr>
+        <tr>
+            <td><img src="./img/9.jpg" id="8" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,8)">
+            <td><img src="./img/9.jpg" id="9" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,9)">
+            <td><img src="./img/9.jpg" id="10" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,10)">
+            <td><img src="./img/9.jpg" id="11" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,11)">
+        </tr>
+        <tr>
+            <td><img src="./img/9.jpg" id="12" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,12)">
+            <td><img src="./img/9.jpg" id="13" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,13)">
+            <td><img src="./img/9.jpg" id="14" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,14)">
+            <td><img src="./img/9.jpg" id="15" alt="" srcset=""  class="imagen" onclick="CambiarImagen(this,15)">
+        </tr>
+    </table>
+    <h2 id="contador"> Pares encontrados: 0 </h2><br>
+    <input type="button" value="Reiniciar" onclick="Reiniciar()">
+    <p id="Salida"></p>
+</body>
+</html>

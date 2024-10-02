@@ -1,0 +1,21 @@
+.imagen{
+    /*El width tambien se puede poner con un numero % */
+    width: 150px;
+    height: 150px;
+}
+
+table{
+    background-image: url("../img/fondo1.jpg");
+    display: inline-table;
+}
+
+h2{
+    display: inline;
+    
+}
+
+input[type=button]{
+    font-size: larger;
+    background-color: #846291;
+
+}
